@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    background: linear-gradient(#20242df3 45%, #04ADBA);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Dancing Script', cursive;
+
+    color: white;
+}
+
+
+.main{
+    width: 85%;
+    height: 85%;
+    border-radius: 50px;
+    background-color: #20242D;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 20px;;
+}
+
+
+.header{
+
+    width: 100%;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 50px;
+
+    font-size: 20px;
+    font-weight: 600;
+
+    border-radius: 50px 50px 0 0;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+ul li.active{
+    color: #04ADBA;
+}
+
+.container{
+    width: 100%;
+    height: calc(100% - 85px);
+    border-radius: 0 0 50px 50px;
+    display: flex;
+}
+
+.about{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    padding-top: 150px;
+    padding-left: 150px;
+    flex-direction: column;
+    gap: 10px;
+
+    font-size: 25px;
+    font-family: Helvetica, sans-serif;
+}
+
+.photo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo img{
+    width: 60%;
+    height: 60%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.developer{
+    color: #04ADBA;
+}
+
+
+
+/* CSS */
+.button-21 {
+    align-items: center;
+    appearance: none;
+    background-color: #3EB2FD;
+    background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    border-radius: 100px;
+    border-width: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: CircularStd,sans-serif;
+    font-size: 1rem;
+    height: auto;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 6px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .2s,background-position .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+    margin-top: 20px;
+    max-width: 150px;
+  }
+  
+  .button-21:active,
+  .button-21:focus {
+    outline: none;
+  }
+  
+  .button-21:hover {
+    background-position: -20px -20px;
+  }
+  
+  .button-21:focus:not(:active) {
+    box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+  }
+  
